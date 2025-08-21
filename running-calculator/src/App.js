@@ -294,8 +294,8 @@ export default function App() {
         <div className="bg-slate-100 min-h-screen font-sans text-slate-800">
             <div className="container mx-auto p-4 md:p-8 max-w-4xl">
                 <header className="text-center mb-8">
-                    <h1 className="text-4xl font-bold text-slate-900">跑步表現計算機</h1>
-                    <p className="text-lg text-slate-600 mt-2">VDOT 系統與 Riegel 模型分析與預測</p>
+                    <h1 className="text-4xl font-bold text-slate-900">雙模型跑步表現計算機</h1>
+                    <p className="text-lg text-slate-600 mt-2">整合 VDOT 系統與 Riegel 模型進行分析與預測</p>
                 </header>
                 <div className="flex justify-center border-b border-slate-300 mb-8">
                     {Object.keys(tabs).map(tabKey => (
@@ -312,4 +312,3 @@ export default function App() {
         </div>
     );
 }
-
